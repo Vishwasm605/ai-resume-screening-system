@@ -4,7 +4,9 @@ import fitz
 import re
 import joblib
 import pandas as pd
+import nltk
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 import matplotlib.pyplot as plt
 from collections import Counter
 
